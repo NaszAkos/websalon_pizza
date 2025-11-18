@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+#container{
+    width: 100%;
+}
+
+
+#header{
+    background-image: url(img/pizzakep.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+    
+}
+#szoveg{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.headerLeft{
+    display: flex;
+    margin: 20px;
+}
+.headerRight{
+    display: flex;
+    margin: 20px;
+}
+.headerRight:first-child{
+    font-weight: bold;
+}
+#piadina_pizzeria{
+    display: flex;
+}
