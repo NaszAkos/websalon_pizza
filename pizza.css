@@ -34,14 +34,12 @@ body{
 #piadina_pizzeria{
     display: flex;
     justify-content: center;
-    
     background-color: #222222;
     color: white;
     width: 100%;
     margin: auto;
     gap: 5%;
     height: 30vh;
-    
 }
 
 
@@ -57,4 +55,41 @@ body{
 }
 #paladina_leiras p{
     color: gray;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+    background-color: black;
+    color: white;
+}
+
+#menu h2{
+    margin: 0px;
+}
+#szurke{
+    color: gray;
+}
+#menuSzoveg{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+#menuDiv{
+    margin: 5%;
+    width: 50%;
+}
+#cim2{
+    text-align: center;
+}
+
+#menupontok{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.menuk{
+    border: 1px solid white;
+    width: 13vw;
 }
