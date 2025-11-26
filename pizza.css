@@ -110,17 +110,20 @@ body{
 
 #kepek{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 20fr 1fr 8fr;
+    margin: auto;
     height: 70vh;
     width: 70vw;
-    
+    gap: 3%;
+    padding: 5%;
+    padding-top: 0%;
     
 }
 #kep1{
     background-image: url(img/pizzakep.jpg);
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 }
@@ -154,5 +157,31 @@ body{
 }
 
 #kepek div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
 }
+
+.cim2 h2{
+    margin: 0px;
+    
+}
+
+#kepek p{
+    color: white;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#nyitvatartas{
+    width: 30vw;
+}
+
