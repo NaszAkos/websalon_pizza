@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    
 }
 #container{
     height: 100vh;
@@ -12,7 +13,7 @@ body{
     background-image: url(img/pizzakep.jpg);
     background-size: cover;
     width: 100%;
-    height: 35vw;
+    height: 35vh;
     box-shadow: 10px black;
 }
 #szoveg{
@@ -46,7 +47,7 @@ body{
     color: white;
     width: 100%;
     gap: 5%;
-    height: 20vh;
+    height: 30vh;
 }
 
 #piadina_pizzeria #cim{
@@ -70,7 +71,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25vh;
+    text-align: center;
+    height: 30vh;
     background-color: black;
     color: white;
 }
@@ -165,7 +167,8 @@ body{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 5;
+    
     
 }
 
@@ -240,7 +243,10 @@ body{
 }
 
 
-@media (max-width:1280px){
+@media (max-width:1200px){
+    #container{
+        font-size: 0.9rem;
+    }
     #hamburger{
         display: flex;
     }
@@ -252,5 +258,8 @@ body{
     }
     #menu{
         height: 20vh;
+    }
+    #specialitas{
+        height: 80vh;
     }
 }
