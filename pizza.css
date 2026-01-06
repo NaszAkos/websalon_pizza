@@ -6,6 +6,7 @@ body{
 #container{
     height: 100vh;
     width: 100%;
+    font-size: 1.1rem;
 }
 
 
@@ -32,6 +33,7 @@ body{
 .headerRight{
     display: flex;
     margin: 20px;
+    padding-right: 20px;
 }
 #hamburger{
     display: none;
@@ -46,8 +48,9 @@ body{
     background-color: #222222;
     color: white;
     width: 100%;
+    padding: 2%;
     gap: 5%;
-    height: 30vh;
+    height: auto;
 }
 
 #piadina_pizzeria #cim{
@@ -72,7 +75,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 30vh;
+    height: auto;
     background-color: black;
     color: white;
 }
@@ -101,6 +104,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    margin-top:  5%;
+    margin: 3%;
 }
 .menuk{
     border: 1px solid white;
@@ -114,7 +119,7 @@ body{
     width: 100%;
     padding-top: 5%;
     gap: 5%;
-    height: 100%;
+    height: auto;
 }
 #specialitas p{
     color: gray;
@@ -127,7 +132,7 @@ body{
     grid-template-rows: 20fr 1fr 8fr;
     margin: auto;
     height: 70vh;
-    width: 70vw;
+    width: 50vw;
     gap: 3%;
     padding: 5%;
     padding-top: 0%;
@@ -242,9 +247,21 @@ body{
     color: gray;
 }
 
-
-
-@media (max-width:1200px){
+#lgMenu{
+    display: flex;
+    gap: 2%;
+}
+@media (max-width:1200){
+    #container{
+        font-size: 0.8rem !important; 
+    }
+}
+@media (max-width:1030){
+#container{
+    font-size: 0.8rem;
+}
+}
+@media (max-width:768px){
     #container{
         font-size: 0.7rem;
     }
@@ -252,13 +269,6 @@ body{
         display: block;
         
     }
-    #piadina_pizzeria{
-        height: 20vh;
-    }
-    #menu{
-        height: 20vh;
-    }
-    #specialitas{
-        height: 80vh;
-    }
+    .perJel{display: none;}
 }
+@media (max-width:576px){}
