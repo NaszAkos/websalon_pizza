@@ -42,17 +42,18 @@ body{
     font-weight: bold;
 }
 #piadina_pizzeria{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #222222;
+}
+#piadinaSzoveg{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     color: white;
-    width: 100%;
+    width: auto;
     padding: 2%;
-    gap: 5%;
+    gap: 3%;
     height: auto;
 }
-
 #piadina_pizzeria #cim{
     align-items: flex-start;
 }
@@ -207,7 +208,7 @@ body{
     margin: 2%;
 }
 #nyitvatartas{
-    width: 30vw;
+    width: 20vw;
     color: gray;
     margin: 2%;
 }
@@ -232,7 +233,7 @@ body{
     color: white;
 }
 #hr{
-    width: 80vw;
+    width: 60vw;
     text-align: center;
     margin: auto;
     color: gray;
@@ -251,16 +252,14 @@ body{
     display: flex;
     gap: 2%;
 }
+
 @media (max-width:1200){
     #container{
         font-size: 0.8rem !important; 
     }
 }
-@media (max-width:1030){
-#container{
-    font-size: 0.8rem;
-}
-}
+
+
 @media (max-width:768px){
     #container{
         font-size: 0.7rem;
@@ -269,6 +268,36 @@ body{
         display: block;
         
     }
-    .perJel{display: none;}
+    .perJel{
+        display: none;
+    }
+    #header{
+        height: 50vh;
+    }
+    #piadinaSzoveg{
+        width: 100vw;
+    }
 }
-@media (max-width:576px){}
+@media (max-width:576px){
+    #container{
+        font-size: 0.5rem;
+    }
+    #header{
+        height: 30vh;
+    }
+    #cim p{
+        display: block;
+        text-align: right;
+    }
+    #piadina_pizzeria div{
+        margin: auto;
+    }
+    
+    #piadinaSzoveg{
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+        width: 60vw;
+    }
+    
+}
