@@ -43,19 +43,21 @@ body{
 }
 #piadina_pizzeria{
     background-color: #222222;
+    
 }
 #piadinaSzoveg{
     display: flex;
     align-items: flex-start;
     justify-content: center;
     color: white;
-    width: auto;
     padding: 2%;
     gap: 3%;
     height: auto;
+    
 }
 #piadina_pizzeria #cim{
     align-items: flex-start;
+    
 }
 
 #cim p{
@@ -63,19 +65,20 @@ body{
     align-items: flex-end;
     justify-content: right;
     color: gray;
+    
 }
-#paladina_leiras{
-    width: 30%;
-}
+ 
 #paladina_leiras p{
     color: gray;
+    width: 30vw;
 }
+
 
 #menu{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; 
     height: auto;
     background-color: black;
     color: white;
@@ -262,7 +265,7 @@ body{
 
 @media (max-width:768px){
     #container{
-        font-size: 0.7rem;
+        font-size: 1.1rem;
     }
     #lgMenu{
         display: block;
@@ -277,10 +280,14 @@ body{
     #piadinaSzoveg{
         width: 100vw;
     }
+    #piadina_leiras p{
+        width: auto;
+    }
 }
 @media (max-width:576px){
     #container{
-        font-size: 0.5rem;
+        font-size: 1rem;
+        
     }
     #header{
         height: 30vh;
@@ -292,12 +299,36 @@ body{
     #piadina_pizzeria div{
         margin: auto;
     }
-    
+    #piadina_pizzeria{
+        width: 100vw;
+    }
     #piadinaSzoveg{
         display: flex;
         flex-direction: column;
+        
+        width: auto;
+        padding: 0%;
+        
+    }
+    #piadinaSzoveg p{
         margin-inline: auto;
-        width: 60vw;
+        width: 90vw;
+    }
+    #piadinaSzoveg #cim{
+        text-align: right;
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    #menupontok{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        margin: 3%;
+        gap: 2%;
     }
     
 }
