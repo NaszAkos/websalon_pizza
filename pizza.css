@@ -25,14 +25,14 @@ body{
 }
 .headerLeft{
     display: flex;
-    margin: 20px;
+    margin: 2%;
 }
 #lgMenu{
     display: flex;
 }
 .headerRight{
     display: flex;
-    margin: 20px;
+    margin: 2%;
     padding-right: 20px;
 }
 #hamburger{
@@ -96,7 +96,7 @@ body{
     color: gray;
 }
 #menuDiv{
-    margin: 5%;
+    padding: 5%;
     width: 50%;
 }
 .cim2{
@@ -277,11 +277,18 @@ body{
     #header{
         height: 50vh;
     }
+    
     #piadinaSzoveg{
         width: 100vw;
     }
-    #piadina_leiras p{
-        width: auto;
+    
+    #menuDiv{
+        width: 85vw;
+        margin-right: 5%;
+    }
+    #footerSzoveg{
+        gap: 5%;
+        margin-right: 5%;
     }
 }
 @media (max-width:576px){
