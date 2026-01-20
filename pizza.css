@@ -50,7 +50,8 @@ body{
     align-items: flex-start;
     justify-content: center;
     color: white;
-    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     gap: 3%;
     height: auto;
     
