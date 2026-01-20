@@ -97,7 +97,7 @@ body{
     color: gray;
 }
 #menuDiv{
-    padding: 5%;
+    padding-top: 5%;
     width: 50%;
 }
 .cim2{
@@ -139,7 +139,7 @@ body{
     height: 70vh;
     width: 50vw;
     gap: 3%;
-    padding: 5%;
+    padding-left: 2%;
     padding-top: 0%;
     
     
@@ -347,7 +347,7 @@ body{
     #kepek{
         display: block;
         height: 310vh;
-        width: 100vw;
+        width: 90vw;
     }
     #kep1{
         margin-top: 10%;
